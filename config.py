@@ -23,7 +23,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Raichuop07/tcs")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_tcs")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/tcs_chatting_hub_forever")
