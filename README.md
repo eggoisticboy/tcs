@@ -9,11 +9,11 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/raichuop07/Tcs/stargazers"><img src="https://img.shields.io/github/stars/raichuop07/Tcs?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/raichuop07/Tcs/network/members"> <img src="https://img.shields.io/github/forks/raichuop07/Tcs?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/raichuop07/Tcs/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/eggoisticboy/Tcs/stargazers"><img src="https://img.shields.io/github/stars/eggoisticboy/Tcs?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/eggoisticboy/Tcs/network/members"> <img src="https://img.shields.io/github/forks/raichuop07/Tcs?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/eggoisticboy/Tcs/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/raichuop07/Tcs/commits/raichuop07"> <img src="https://img.shields.io/github/last-commit/raichuop07/Tcs?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/eggoisticboy/Tcs/commits/eggoisticboy"> <img src="https://img.shields.io/github/last-commit/eggoisticboy/Tcs?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/raichuop07/Tcs/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/eggoisticboy/tcs/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -46,7 +46,7 @@
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/raichuop07/Tcs && cd Tcs`
+`git clone https://github.com/eggoisticboy/Tcs && cd Tcs`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
