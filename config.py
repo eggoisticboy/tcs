@@ -13,8 +13,8 @@ API_HASH = getenv("API_HASH", None)
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001969560344"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "─‌⃜𓆩ᴛ¢s 𝙓 𝐌υѕι¢𓆪ꭗ‌")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001903508531"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "─‌ᴍᴏᴏɴʟɪɢʜᴛ ᴍᴜsɪᴄ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5665115127 ").split()))
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/43888c2da0aed225b7c80.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/2a794cf3556a1f5ef8d93.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/e49615f925591ad47f279.jpg",
+    "https://graph.org/file/a04bcad18275ae5de0593.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/e49615f925591ad47f279.jpg"
+            PING_IMG_URL = "https://graph.org/file/a04bcad18275ae5de0593.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/43888c2da0aed225b7c80.jpg"
+            START_IMG_URL = "https://graph.org/file/2a794cf3556a1f5ef8d93.jpg"
